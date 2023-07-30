@@ -23,7 +23,7 @@ function App(): JSX.Element {
   return (
     <div>
       <div>
-        <button onClick={() => getAdressIp()}>Exibir ip</button>
+        <button onClick={() => getAdressIp()}>Exibir ip.</button>
       </div>
       {loader ? (
         <Loader />
